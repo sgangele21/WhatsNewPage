@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WhatsNewPage_Example' do
+  pod 'WhatsNewPage', :path => '../'
+
+  target 'WhatsNewPage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
