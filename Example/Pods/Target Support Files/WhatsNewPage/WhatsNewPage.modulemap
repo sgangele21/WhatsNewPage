@@ -1,0 +1,6 @@
+framework module WhatsNewPage {
+  umbrella header "WhatsNewPage-umbrella.h"
+
+  export *
+  module * { export * }
+}

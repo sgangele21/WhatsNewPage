@@ -1,0 +1,16 @@
+PODS:
+  - WhatsNewPage (0.1.0)
+
+DEPENDENCIES:
+  - WhatsNewPage (from `../`)
+
+EXTERNAL SOURCES:
+  WhatsNewPage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WhatsNewPage: 0c69ab794a1dae48f30350d57a81e6eed2585cb0
+
+PODFILE CHECKSUM: 6d14c42a2294a4a59e2cdc0269d56e89b821d91c
+
+COCOAPODS: 1.3.1

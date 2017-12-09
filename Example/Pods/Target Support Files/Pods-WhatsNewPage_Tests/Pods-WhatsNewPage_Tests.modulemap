@@ -1,0 +1,6 @@
+framework module Pods_WhatsNewPage_Tests {
+  umbrella header "Pods-WhatsNewPage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
