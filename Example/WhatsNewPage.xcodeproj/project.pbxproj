@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		20E44A46CD4CBF509565C45F /* Pods_WhatsNewPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsNewPage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29B5471676738BA45364B97A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		29B5471676738BA45364B97A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40AB90DBCEF3FA67C43424F2 /* Pods-WhatsNewPage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNewPage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsNewPage_Tests/Pods-WhatsNewPage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		433D5752FBD0018CCEAE119F /* Pods-WhatsNewPage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNewPage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsNewPage_Example/Pods-WhatsNewPage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F11ACACCA547E01AE03E09F /* Pods_WhatsNewPage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsNewPage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61ABF7265984D06B85734AEE /* Pods-WhatsNewPage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNewPage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsNewPage_Example/Pods-WhatsNewPage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D1A225305E53B4B8BCD5265 /* Pods-WhatsNewPage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsNewPage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsNewPage_Tests/Pods-WhatsNewPage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C61DD3BCEDB093F383A132E2 /* WhatsNewPage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WhatsNewPage.podspec; path = ../WhatsNewPage.podspec; sourceTree = "<group>"; };
-		E22E16A1A5421862EF1F0FAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C61DD3BCEDB093F383A132E2 /* WhatsNewPage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WhatsNewPage.podspec; path = ../WhatsNewPage.podspec; sourceTree = "<group>"; };
+		E22E16A1A5421862EF1F0FAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,11 +458,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -504,10 +505,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

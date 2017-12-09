@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		0A74C0971D467D402980A16810E31D0A /* Pods-WhatsNewPage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 131A82F6F1D7FD290B22950479C68773 /* Pods-WhatsNewPage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52081AE3CCF0CD8B7268F9EF50940A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5FBD188B80238CDEB092DA1F44335CAC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481C80277BD4C97F918AE29C6EBCEAF /* ReplaceMe.swift */; };
 		71DB0483DF7F77FD5F59C6A3222E0920 /* Pods-WhatsNewPage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 177FB8959409E7DBF74438A7BF07C52C /* Pods-WhatsNewPage_Example-dummy.m */; };
+		760BD5191FDBC3F800F5F009 /* WhatsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760BD5161FDBC3F800F5F009 /* WhatsNewViewController.swift */; };
+		760BD51B1FDBC44100F5F009 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760BD5131FDBC38B00F5F009 /* DescriptionView.swift */; };
+		7645F7521FDBC6CD008E42FC /* WhatsNewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760BD50F1FDBC30600F5F009 /* WhatsNewLabel.swift */; };
+		7645F7541FDBC6D1008E42FC /* ClosePageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760BD5111FDBC36B00F5F009 /* ClosePageButton.swift */; };
+		7645F7581FDBC9B4008E42FC /* DescriptionStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7645F7561FDBC9AF008E42FC /* DescriptionStackView.swift */; };
 		784E80EC335BD4890693C685FA3EED85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BC96D09BA08159EBE0252CF3CC75DB06 /* Pods-WhatsNewPage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6994D68D19BB469BE916A51EFFF130C /* Pods-WhatsNewPage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C25182B1120C163BA2FB99158E96A5EF /* WhatsNewPage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B20CFE58D215BAECBE8BF3A7521F718 /* WhatsNewPage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,12 +38,11 @@
 		177FB8959409E7DBF74438A7BF07C52C /* Pods-WhatsNewPage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsNewPage_Example-dummy.m"; sourceTree = "<group>"; };
 		1948B404F733A7C5F8DB56A40CB883E1 /* Pods-WhatsNewPage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhatsNewPage_Tests-dummy.m"; sourceTree = "<group>"; };
 		20D4659C8EB4263A309A3CDB1A8BF61B /* Pods-WhatsNewPage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsNewPage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		21F6CC82B91EA9F14F361BBCA50C68B8 /* Pods-WhatsNewPage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhatsNewPage_Example.modulemap"; sourceTree = "<group>"; };
+		21F6CC82B91EA9F14F361BBCA50C68B8 /* Pods-WhatsNewPage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WhatsNewPage_Example.modulemap"; sourceTree = "<group>"; };
 		27922BF58399D14180555F6C7235A9AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295EFC03723A2BBBB5E834CA6DC46DA3 /* Pods-WhatsNewPage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsNewPage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2B20CFE58D215BAECBE8BF3A7521F718 /* WhatsNewPage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhatsNewPage-umbrella.h"; sourceTree = "<group>"; };
-		331D242B3C2BD306EA695B0B2BC1250D /* Pods_WhatsNewPage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsNewPage_Tests.framework; path = "Pods-WhatsNewPage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3481C80277BD4C97F918AE29C6EBCEAF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WhatsNewPage/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		331D242B3C2BD306EA695B0B2BC1250D /* Pods_WhatsNewPage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsNewPage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37886C19476909E2719C95CD068A5028 /* Pods-WhatsNewPage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsNewPage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D40E28E02D6A93E799628FB0E142A28 /* Pods-WhatsNewPage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsNewPage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		537F86728A06EE9ECC36CDC7CC69A717 /* Pods-WhatsNewPage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsNewPage_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -47,17 +50,24 @@
 		59515B555A22F838C60EA549B0093DDA /* Pods-WhatsNewPage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhatsNewPage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5DD1ED2210530C917531BD1B6B1DE747 /* Pods-WhatsNewPage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsNewPage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		760BD50F1FDBC30600F5F009 /* WhatsNewLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewLabel.swift; sourceTree = "<group>"; };
+		760BD5111FDBC36B00F5F009 /* ClosePageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosePageButton.swift; sourceTree = "<group>"; };
+		760BD5131FDBC38B00F5F009 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		760BD5151FDBC3C700F5F009 /* DescriptionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionView.xib; sourceTree = "<group>"; };
+		760BD5161FDBC3F800F5F009 /* WhatsNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewViewController.swift; sourceTree = "<group>"; };
+		760BD51A1FDBC41500F5F009 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7645F7561FDBC9AF008E42FC /* DescriptionStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStackView.swift; sourceTree = "<group>"; };
 		8854FD5E651CCC96CAD603632E172B94 /* Pods-WhatsNewPage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsNewPage_Example-resources.sh"; sourceTree = "<group>"; };
 		8B69AE3CBD58C103EA8306BDEED1F132 /* Pods-WhatsNewPage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsNewPage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		977D3B1D93991298573DBB269B005F40 /* WhatsNewPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WhatsNewPage.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977D3B1D93991298573DBB269B005F40 /* WhatsNewPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WhatsNewPage.modulemap; sourceTree = "<group>"; };
 		983609166D38AFAD4F961F64488A053A /* WhatsNewPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhatsNewPage-prefix.pch"; sourceTree = "<group>"; };
-		A07360056560E9E54D1C95E614B0DF2B /* Pods_WhatsNewPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhatsNewPage_Example.framework; path = "Pods-WhatsNewPage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07360056560E9E54D1C95E614B0DF2B /* Pods_WhatsNewPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsNewPage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15516CAC90A35CA16D544B40DF69E9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6994D68D19BB469BE916A51EFFF130C /* Pods-WhatsNewPage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhatsNewPage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B07D9857E8EE405712C530273E73D9DA /* Pods-WhatsNewPage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhatsNewPage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B7C2DA5D97ABC03CD6579FB77EC70C58 /* WhatsNewPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WhatsNewPage.framework; path = WhatsNewPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C554F9B7A80FB392586433639DBE5E0E /* Pods-WhatsNewPage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhatsNewPage_Tests.modulemap"; sourceTree = "<group>"; };
+		B7C2DA5D97ABC03CD6579FB77EC70C58 /* WhatsNewPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WhatsNewPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C554F9B7A80FB392586433639DBE5E0E /* Pods-WhatsNewPage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WhatsNewPage_Tests.modulemap"; sourceTree = "<group>"; };
 		DB03CF995E9DBB7D260E6D7ABA34DECA /* Pods-WhatsNewPage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhatsNewPage_Tests-resources.sh"; sourceTree = "<group>"; };
 		E5F4237B833CF3895FADBC5C722D1D42 /* Pods-WhatsNewPage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhatsNewPage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F221B8713AEF609E0634A553E0330604 /* WhatsNewPage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhatsNewPage.xcconfig; sourceTree = "<group>"; };
@@ -173,8 +183,14 @@
 		CA44C760BDAA148A0024781687EFDACF /* WhatsNewPage */ = {
 			isa = PBXGroup;
 			children = (
-				3481C80277BD4C97F918AE29C6EBCEAF /* ReplaceMe.swift */,
+				760BD51A1FDBC41500F5F009 /* Main.storyboard */,
+				760BD5151FDBC3C700F5F009 /* DescriptionView.xib */,
 				8DE6BA288A0847B64B8E38927751FFA8 /* Support Files */,
+				760BD50F1FDBC30600F5F009 /* WhatsNewLabel.swift */,
+				760BD5111FDBC36B00F5F009 /* ClosePageButton.swift */,
+				760BD5131FDBC38B00F5F009 /* DescriptionView.swift */,
+				760BD5161FDBC3F800F5F009 /* WhatsNewViewController.swift */,
+				7645F7561FDBC9AF008E42FC /* DescriptionStackView.swift */,
 			);
 			name = WhatsNewPage;
 			path = ../..;
@@ -296,6 +312,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					277F54464494AD73B9598F91003D3072 = {
+						LastSwiftMigration = 0910;
+					};
+					8D4695E0EE43AF5F2D6C09EAFEE4385A = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -329,8 +353,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FBD188B80238CDEB092DA1F44335CAC /* ReplaceMe.swift in Sources */,
+				7645F7581FDBC9B4008E42FC /* DescriptionStackView.swift in Sources */,
+				7645F7541FDBC6D1008E42FC /* ClosePageButton.swift in Sources */,
+				760BD5191FDBC3F800F5F009 /* WhatsNewViewController.swift in Sources */,
 				CD5BE90940354DB65697BEDC2D2CEFE5 /* WhatsNewPage-dummy.m in Sources */,
+				760BD51B1FDBC44100F5F009 /* DescriptionView.swift in Sources */,
+				7645F7521FDBC6CD008E42FC /* WhatsNewLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B69AE3CBD58C103EA8306BDEED1F132 /* Pods-WhatsNewPage_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -382,6 +411,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -437,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,7 +494,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WhatsNewPage/WhatsNewPage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WhatsNewPage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WhatsNewPage/WhatsNewPage.modulemap";
 				PRODUCT_NAME = WhatsNewPage;
@@ -483,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B07D9857E8EE405712C530273E73D9DA /* Pods-WhatsNewPage_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -505,6 +536,7 @@
 				PRODUCT_NAME = Pods_WhatsNewPage_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -558,7 +590,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -571,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20D4659C8EB4263A309A3CDB1A8BF61B /* Pods-WhatsNewPage_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -594,6 +627,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -605,6 +639,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DD1ED2210530C917531BD1B6B1DE747 /* Pods-WhatsNewPage_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -627,6 +662,8 @@
 				PRODUCT_NAME = Pods_WhatsNewPage_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -649,7 +686,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WhatsNewPage/WhatsNewPage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WhatsNewPage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WhatsNewPage/WhatsNewPage.modulemap";
 				PRODUCT_NAME = WhatsNewPage;
