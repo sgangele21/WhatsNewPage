@@ -120,6 +120,20 @@
 			path = "Target Support Files/Pods-WhatsNewPage_Example";
 			sourceTree = "<group>";
 		};
+		7645F7591FDBD114008E42FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				760BD51A1FDBC41500F5F009 /* Main.storyboard */,
+				760BD5151FDBC3C700F5F009 /* DescriptionView.xib */,
+				760BD50F1FDBC30600F5F009 /* WhatsNewLabel.swift */,
+				760BD5111FDBC36B00F5F009 /* ClosePageButton.swift */,
+				760BD5131FDBC38B00F5F009 /* DescriptionView.swift */,
+				760BD5161FDBC3F800F5F009 /* WhatsNewViewController.swift */,
+				7645F7561FDBC9AF008E42FC /* DescriptionStackView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -183,14 +197,8 @@
 		CA44C760BDAA148A0024781687EFDACF /* WhatsNewPage */ = {
 			isa = PBXGroup;
 			children = (
-				760BD51A1FDBC41500F5F009 /* Main.storyboard */,
-				760BD5151FDBC3C700F5F009 /* DescriptionView.xib */,
+				7645F7591FDBD114008E42FC /* Classes */,
 				8DE6BA288A0847B64B8E38927751FFA8 /* Support Files */,
-				760BD50F1FDBC30600F5F009 /* WhatsNewLabel.swift */,
-				760BD5111FDBC36B00F5F009 /* ClosePageButton.swift */,
-				760BD5131FDBC38B00F5F009 /* DescriptionView.swift */,
-				760BD5161FDBC3F800F5F009 /* WhatsNewViewController.swift */,
-				7645F7561FDBC9AF008E42FC /* DescriptionStackView.swift */,
 			);
 			name = WhatsNewPage;
 			path = ../..;
