@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 A ViewController that mimics the iOS 11 Whats New page. It is comprised of three main elements: WhatsNewLabel, DescriptionStackView, DescriptionView, and a ClosePageButton.
-                       DESC
+DESC
 
   s.homepage         = 'https://github.com/sgangele21/WhatsNewPage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
